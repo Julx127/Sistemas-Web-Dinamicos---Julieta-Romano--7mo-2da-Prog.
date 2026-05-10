@@ -1,0 +1,87 @@
+img{
+   width: 3vw; 
+}
+.index section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+    padding: 2%;
+    background-color: rgb(224, 226, 255);
+    width: 39vw;
+    border-radius: 3vw;
+}
+h1{
+    font-size: 3vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline black  0.4vw;
+}
+.index a{
+    color: black;
+    text-decoration: none;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    font-size: 3vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.index a:hover{
+    color: rgb(111, 85, 255);
+    font-size: 3.2vw;
+}
+body{
+    background-color: #8497f5;
+}
+
+.ejercicio1 section{
+    display: flex;
+    flex-direction: column;
+}
+.ejercicio1 button{
+    width: 40vw;
+    font-size: 2vw;
+    border-radius: 3vw;
+    padding: 1vw;
+    margin: 1vw;
+}
+p{
+    margin-left: 1vw;
+ font-size: 3vw;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ejercicio2 input{
+    width: 5vw;
+    font-size: 2vw;
+    border-radius: 3vw;
+    padding: 1vw;
+    margin: 1vw;
+}
+.ejercicio2 button{
+    width: 10vw;
+    font-size: 2vw;
+    border-radius: 3vw;
+    padding: 1vw;
+    margin: 1vw;
+}
+.ejercicio2{
+    display: flex;
+    flex-direction: column;
+}
+
+.ejercicio3 input{
+    width: 20vw;
+    font-size: 2vw;
+    border-radius: 3vw;
+    padding: 1vw;
+    margin: 1vw;
+}
+.ejercicio3 select{
+    width: 40vw;
+    font-size: 2vw;
+    border-radius: 3vw;
+    padding: 1vw;
+    margin: 1vw;
+}
+.ejercicio3{
+    display: flex;
+    flex-direction: column;
+}
