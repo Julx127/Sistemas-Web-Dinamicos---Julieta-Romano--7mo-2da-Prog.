@@ -1,0 +1,26 @@
+body{
+    background-color: aliceblue;
+}
+div{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 25%;
+    margin: 1vw;
+}
+button{
+    margin: 1vw;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifs;
+    font-size: 3vw;
+    color: rgb(53, 101, 144);
+}
+button{
+    background-color: rgb(53, 101, 144);
+    border-radius: 2vw;
+    color: aliceblue;
+    padding: 1.5vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifs;
+}
