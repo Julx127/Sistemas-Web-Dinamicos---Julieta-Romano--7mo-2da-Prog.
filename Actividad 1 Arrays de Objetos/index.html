@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>PRESUPUESTOS</h1>
+    <h2>Ingrese:</h2>
+    <div class="input">
+        <input type="text" placeholder="Vehiculo" id="marca">
+        <input type="text" placeholder="Nombre del cliente" id="nombre">
+        <input type="text" placeholder="Apellido del cliente" id="apellido">
+        <input type="number" placeholder="Precio del automotor" id="precio">
+    </div>
+    <button onclick="agregar()">AGREGAR</button>
+    <button onclick="mostrar()">MOSTRAR TODO</button>
+    <button onclick="mayores()">MOSTRAR MAYORES A $1.000.000</button>
+    <div>
+        <button onclick="buscar()">BUSCAR CLIENTE</button>
+        <input type="text" placeholder="Nombre y apellidos completos del cliente" id="cliente">
+    </div>
+    <script src="java.js"></script>
+    <table id="tabla">
+        <tr>
+            <td>MARCA</td>
+            <td>PRECIO</td>
+            <td>CLIENTE</td>
+            <td>IVA 21%</td>
+            <td>PRECIO CONTADO</td>
+            <td>INTERESES 10%</td>
+            <td>PRECIO CON INTERES</td>
+            <td>VALOR EN 24 CUOTAS</td>
+            <td>VALOR EN 36 CUOTAS</td>
+        </tr>
+    </table>
+</body>
+</html>
