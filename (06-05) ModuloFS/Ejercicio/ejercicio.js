@@ -1,0 +1,12 @@
+console.clear();
+const calculos=require ('./calculos.js');
+let horas=5;
+let paga=100;
+let sueldoBruto=calculos.calcSueldoBruto(horas, paga);
+let bonificacion=calculos.calcBonificacion(sueldoBruto);
+let sueldoNeto=calculos.calcSueldoNeto(sueldoBruto, bonificacion);
+console.log(`HORAS: ${horas}`);
+console.log(`PAGA: ${paga}`);
+console.log(`SUELDO BRUTO: ${sueldoBruto}`);
+console.log(`BONIFICACION: ${bonificacion}`);
+console.log(`SUELDO NETO: ${sueldoNeto}`);

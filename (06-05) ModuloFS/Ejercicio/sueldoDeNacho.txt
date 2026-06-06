@@ -1,0 +1,7 @@
+SUELDO DE NACHO: 
+ Horas totales: 5 
+ Paga por hora: 100 
+ Sueldo bruto: 500 
+ Bonificacion de 15%: 75 
+ Sueldo neto: 575
+
