@@ -1,0 +1,129 @@
+{
+    "clientes": [],
+    "empleados": [
+        {
+            "id": 1,
+            "nombre": "Elena",
+            "apellido": "Paez Diaz",
+            "direccion": "Chascomus 294, Sarandi",
+            "telefono": "+54 9 11 4023-7458"
+        },
+        {
+            "id": 2,
+            "nombre": "Martin",
+            "apellido": "Fernandez",
+            "direccion": "Aguero 5063, Gerli",
+            "telefono": "+54 9 11 5608-7938"
+        }
+    ],
+    "disfraces":[
+        {
+            "id": 1,
+            "nombre": "Bruja",
+            "piezas": 4,
+            "id_categoria": 1,
+            "precio": 20000
+        },
+        {
+            "id": 2,
+            "nombre": "Abeja",
+            "piezas": 3,
+            "id_categoria": 2,
+            "precio": 15000
+        },
+        {
+            "id": 3,
+            "nombre": "Princesa",
+            "piezas": 4,
+            "id_categoria": 2,
+            "precio": 20000
+        },
+        {
+            "id": 4,
+            "nombre": "Spiderman",
+            "piezas": 2,
+            "id_categoria": 3,
+            "precio": 10000
+        },
+        {
+            "id": 5,
+            "nombre": "Goku",
+            "piezas": 3,
+            "id_categoria": 3,
+            "precio": 15000
+        },
+        {
+            "id": 6,
+            "nombre": "Payasa",
+            "piezas": 4,
+            "id_categoria": 1,
+            "precio": 20000
+        },
+        {
+            "id": 7,
+            "nombre": "Cavernicola",
+            "piezas": 3,
+            "id_categoria": 4,
+            "precio": 15000
+        },
+        {
+            "id": 8,
+            "nombre": "Harry Potter",
+            "piezas": 3,
+            "id_categoria": 2,
+            "precio": 15000
+        },
+        {
+            "id": 9,
+            "nombre": "IT",
+            "piezas": 5,
+            "id_categoria": 1,
+            "precio": 25000
+        },
+        {
+            "id": 10,
+            "nombre": "Doctor",
+            "piezas": 3,
+            "id_categoria": 5,
+            "precio": 15000
+        },
+        {
+            "id": 11,
+            "nombre": "Ghost",
+            "piezas": 2,
+            "id_categoria": 1,
+            "precio": 10000
+        },
+        {
+            "id": 12,
+            "nombre": "Cleopatra",
+            "piezas": 5,
+            "id_categoria": 4,
+            "precio": 25000
+        }
+    ],
+    "categoria":[
+        {
+            "id": 1,
+            "nombre": "Terror"
+        },
+        {
+            "id": 2,
+            "nombre": "Fantasia"
+        },
+        {
+            "id": 3,
+            "nombre": "Superheroe"
+        },
+        {
+            "id": 4,
+            "nombre": "Historico"
+        },
+        {
+            "id": 5,
+            "nombre": "Profesiones"
+        }
+    ],
+    "alquiler":[]
+
+}

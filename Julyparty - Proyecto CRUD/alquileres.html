@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logotipo">
+            <img src="imgs/logo.png" alt="" class="logo">
+            <div>
+                <p class="logoTexto">JULY</p>
+                <p class="logoTexto">PARTY</p>
+            </div>
+        </div>
+        <div class="contenedorMenu">
+            <nav>
+                <ul class="ulHeader">
+                    <li class="liHeader">
+                        <img src="imgs/inicio.png" alt="" class="imgsHeader">
+                        <a href="index.html">INICIO</a>
+                    </li>
+                    <li class="liHeader">
+                        <img src="imgs/disfraces.png" alt="" class="imgsHeader">
+                        <a href="disfraces.html">DISFRACES</a>
+                    </li>
+                    <li class="eleccionMenu">
+                        <img src="imgs/alquilerBlanco.png" alt="" class="imgsHeader">
+                        <a>ALQUILER</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="contenedorAlquiler">
+        <form action="alquileres2.html">
+            <label>Nombre completo</label>
+            <input type="text" placeholder="" id="nombre" required>
+            <label>Apellido completo</label>
+            <input type="text" placeholder="" id="apellido" required>
+            <label>DNI</label>
+            <input type="number" placeholder="" id="dni" required>
+            <label>Direccion</label>
+            <input type="text" placeholder="" id="direccion" required>
+            <label>Telefono</label>
+            <input type="number" placeholder="" id="telefono" required>
+            <label>Disfraz</label>
+            <select name="" id="disfraz" onchange="modificarPrecio()" required>
+                <option value="#">Seleccionar</option>
+                <option value="1">Bruja (infantil)</option>
+                <option value="2">Clase (infantil)</option>
+                <option value="3">Princesa (infantil)</option>
+                <option value="4">Spiderman (infantil)</option>
+                <option value="5">Goku (infantil)</option>
+                <option value="6">Payasa (infantil)</option>
+                <option value="7">Cavernicola (adulto)</option>
+                <option value="8">Harry Potter (adulto)</option>
+                <option value="9">IT (adulto)</option>
+                <option value="10">Doctor (adulto)</option>
+                <option value="11">Ghost (adulto)</option>
+                <option value="12">Cleopatra (adulto)</option>
+            </select>
+            <label>Cantidad</label>
+            <input type="number" id="cantidad" oninput="modificarPrecio()" value="1">
+            <label>Fecha de retiro</label>
+            <input type="date" id="retiro" required>
+            <div class="confirmarOrden">
+                <button type="submit" onclick="hacerPedido()">CONFIRMAR ORDEN</button>
+                <p id="precio" style="margin-left: 1vw; color: green; font-size: 1.5vw;">$0</p>
+            </div>
+        </form>
+        <div class="politica">
+            <h2>POLITICAS</h2>
+            <ul style="list-style-type: disc;">
+                <li>El pago se realiza en el local, el día del retiro</li>
+                <li>El disfraz debe ser devuelto hasta 15 dias despues del retiro</li>
+                <li>Horarios de atención:
+                    <ul style="list-style-type: circle;">
+                        <li style="margin-left: 1vw;">LUNES A MIERCOLES 09:00 a 19:00 - Responsable: Elena Paez Diaz</li>
+                        <li style="margin-left: 1vw;">JUEVES A DOMINGO 12:00 a 19:00 - Responsable: Martin Fernandez</li>
+                    </ul>
+                </li>
+                <li>El disfraz debe ser devuelto en las condiciones en las que se entregó. En caso de daños, el precio a pagar se medirá según la magnitud del daño y las piezas afectadas</li>
+            </ul>
+        </div>
+    </section>
+    <footer> 
+        <div class="contenedorFooter">
+            <div class="item">
+                <div class="divItem">
+                    <p class="pItem">Instagram</p>
+                    <p class="pItem">@julyparty</p>
+                </div>
+                <img class="imagenItem" src="imgs/instagram.png" alt="Instagram">
+            </div>
+            <div class="item">
+                <div class="divItem">
+                    <p class="pItem">Whatsaap</p>
+                    <p class="pItem">+54 9 11 5927-9137</p>
+                </div>
+                <img class="imagenItem" src="imgs/whatsapp.png" alt="WhatsApp">
+            </div>
+            <div class="item">
+                <div class="divItem">
+                    <p class="pItem">Facebook</p>
+                    <p class="pItem">julyparty</p>
+                </div>
+                <img class="imagenItem" src="imgs/facebook.png" alt="Facebook">
+            </div>
+            <div class="item">
+                <div class="divItem">
+                    <p class="pItem">E-MAIL:</p>
+                    <p class="pItem">julyparty@gmail.com</p>
+                </div>
+                <img class="imagenItem" src="imgs/email.png" alt="Email">
+            </div>
+        </div>
+          <p class="direccion">
+        Dirección: Av. Paseo Colón 1859, C1063 Cdad. Autónoma de Buenos Aires
+    </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
