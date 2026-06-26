@@ -1,0 +1,26 @@
+*{
+    text-align: center;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(75, 82, 159);
+}
+table{
+    text-align: center;
+    width: 100%;
+    border: solid 0.1vw black;
+    border-collapse: collapse;
+}
+th{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 20%;
+    padding: 1%;
+    border: solid 0.1vw black;
+    background-color: rgb(192, 197, 254);
+}
+td{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 20%;
+    padding: 1%;
+    border: solid 0.1vw black;
+}
