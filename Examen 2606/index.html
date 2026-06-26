@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 7</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <select name="" id="eleccion" onchange="elegir()">
+        <option value="#">Ver todo</option>
+        <option value="1">Ver electronica menor a $500</option>
+        <option value="2">Ver productos con un 10% de descuento</option>
+        <option value="3">Ver el primer producto con stock de 0</option>
+    </select>
+    <table id="resultado">
+        <tr>
+            <th>ID</th>
+            <th>NOMBRE</th>
+            <th>CATEGORIA</th>
+            <th>PRECIO</th>
+            <th>STOCK</th>
+        </tr>
+    </table>
+    <section>
+        <input type="text" placeholder="Nombre" id="nombre">
+        <input type="text" placeholder="Categoria" id="categoria">
+        <input type="number" placeholder="Precio" id="precio">
+        <input type="number" placeholder="Stock" id="stock">
+        <button onclick="agregar()">CREAR PRODUCTO</button>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
